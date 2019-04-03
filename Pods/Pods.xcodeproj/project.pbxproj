@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DDDE4B88D870D6225BAB7EECD72B490 /* DLRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 79004246FA482B1F5413822B0AC6E9ED /* DLRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39BA3BF698FADF1F43C525D6050FA48C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		55B2CCDC53F0969011D2BA234E56B7E9 /* DLRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F1A0F9D4F992E0313B41C1F11678DB /* DLRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72A0DADCED6F3EA2F6D6410B9831BC96 /* Pods-PrnkTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF93F277B7F4C96AD638EB78399F756 /* Pods-PrnkTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90E5173DDF07BF9E360CFD4CC5E430F6 /* Pods-PrnkTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 682BAE64D4F0BEDFD9DF759B9F401C5E /* Pods-PrnkTest-dummy.m */; };
+		BDBCFC743FB9943826F18A175C83DF08 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A462EE762B9C2637564A1254CF053B /* DLRadioButton.m */; };
+		E274AD58903EC1747DD90FC12BAF853F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		FED928FEC82C7BF9E9EFC1CECE84E897 /* DLRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 365260BCFFA49A1A9857248220798B8D /* DLRadioButton-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6B1C82C95D5C2E443081626156283CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46BD0675E3AE6FB8C284CB79F1013052;
+			remoteInfo = DLRadioButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0458D3CD91D047BC5EAE0C809BDC7C8E /* Pods-PrnkTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrnkTest-resources.sh"; sourceTree = "<group>"; };
+		06FECAB9D5B6A337274AF39F8C03519C /* DLRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DLRadioButton.modulemap; sourceTree = "<group>"; };
+		2171BAF8FD11A7E4189BD77EF3DB41BB /* DLRadioButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.xcconfig; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		27F9E62D87B0686C0FDFF2D7CF2E67CE /* Pods-PrnkTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PrnkTest.modulemap"; sourceTree = "<group>"; };
+		2B04A3805AC23ADA92195B9FAC696A6F /* Pods-PrnkTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrnkTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		365260BCFFA49A1A9857248220798B8D /* DLRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLRadioButton-dummy.m"; sourceTree = "<group>"; };
+		3976AF91963950C90C6F907202700CA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46A462EE762B9C2637564A1254CF053B /* DLRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = DLRadioButton/DLRadioButton.m; sourceTree = "<group>"; };
+		58621754F17B8A753409481A614300FD /* DLRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DLRadioButton.framework; path = DLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		682BAE64D4F0BEDFD9DF759B9F401C5E /* Pods-PrnkTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PrnkTest-dummy.m"; sourceTree = "<group>"; };
+		6E2C9AAF144DD49E7E68EBE9C2B5E7FF /* DLRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-prefix.pch"; sourceTree = "<group>"; };
+		6E445CA69CBD385BA30AB7DED99CFCC4 /* Pods-PrnkTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrnkTest-frameworks.sh"; sourceTree = "<group>"; };
+		73F693E1B6EB8E2EA8A928CF5369F966 /* Pods_PrnkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PrnkTest.framework; path = "Pods-PrnkTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F1A0F9D4F992E0313B41C1F11678DB /* DLRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-umbrella.h"; sourceTree = "<group>"; };
+		79004246FA482B1F5413822B0AC6E9ED /* DLRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = DLRadioButton/DLRadioButton.h; sourceTree = "<group>"; };
+		8D8B4F02AABC865AE77BDE1DB6DC991F /* Pods-PrnkTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrnkTest.release.xcconfig"; sourceTree = "<group>"; };
+		C12A0DC820F426D276E57BA0944D0DC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C30D06430F5A9295E64378EFF77C5B0D /* Pods-PrnkTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrnkTest.debug.xcconfig"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DDF93F277B7F4C96AD638EB78399F756 /* Pods-PrnkTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PrnkTest-umbrella.h"; sourceTree = "<group>"; };
+		F791409548EE5ADA11EB88871242EED8 /* Pods-PrnkTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PrnkTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABD2F34A0FDDA1819A4F4245A462D4E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E274AD58903EC1747DD90FC12BAF853F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C74910045780A8DB2042506C69D284B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BA3BF698FADF1F43C525D6050FA48C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		939C6BB669D2D68B3E68DB299181F22C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95B879468BB710A06380B29D8A9EDEB4 /* Pods-PrnkTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		95B879468BB710A06380B29D8A9EDEB4 /* Pods-PrnkTest */ = {
+			isa = PBXGroup;
+			children = (
+				3976AF91963950C90C6F907202700CA9 /* Info.plist */,
+				27F9E62D87B0686C0FDFF2D7CF2E67CE /* Pods-PrnkTest.modulemap */,
+				F791409548EE5ADA11EB88871242EED8 /* Pods-PrnkTest-acknowledgements.markdown */,
+				2B04A3805AC23ADA92195B9FAC696A6F /* Pods-PrnkTest-acknowledgements.plist */,
+				682BAE64D4F0BEDFD9DF759B9F401C5E /* Pods-PrnkTest-dummy.m */,
+				6E445CA69CBD385BA30AB7DED99CFCC4 /* Pods-PrnkTest-frameworks.sh */,
+				0458D3CD91D047BC5EAE0C809BDC7C8E /* Pods-PrnkTest-resources.sh */,
+				DDF93F277B7F4C96AD638EB78399F756 /* Pods-PrnkTest-umbrella.h */,
+				C30D06430F5A9295E64378EFF77C5B0D /* Pods-PrnkTest.debug.xcconfig */,
+				8D8B4F02AABC865AE77BDE1DB6DC991F /* Pods-PrnkTest.release.xcconfig */,
+			);
+			name = "Pods-PrnkTest";
+			path = "Target Support Files/Pods-PrnkTest";
+			sourceTree = "<group>";
+		};
+		9A650DF3D8C3D03343460EC96E0D7119 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2E006B4E040FA591FD0DC6B9040B89E /* DLRadioButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A661B8329717A6E4158B49312310F4EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06FECAB9D5B6A337274AF39F8C03519C /* DLRadioButton.modulemap */,
+				2171BAF8FD11A7E4189BD77EF3DB41BB /* DLRadioButton.xcconfig */,
+				365260BCFFA49A1A9857248220798B8D /* DLRadioButton-dummy.m */,
+				6E2C9AAF144DD49E7E68EBE9C2B5E7FF /* DLRadioButton-prefix.pch */,
+				76F1A0F9D4F992E0313B41C1F11678DB /* DLRadioButton-umbrella.h */,
+				C12A0DC820F426D276E57BA0944D0DC9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DLRadioButton";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9A650DF3D8C3D03343460EC96E0D7119 /* Pods */,
+				F66A636F91DEE92A25B410CB90873B88 /* Products */,
+				939C6BB669D2D68B3E68DB299181F22C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2E006B4E040FA591FD0DC6B9040B89E /* DLRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				79004246FA482B1F5413822B0AC6E9ED /* DLRadioButton.h */,
+				46A462EE762B9C2637564A1254CF053B /* DLRadioButton.m */,
+				A661B8329717A6E4158B49312310F4EE /* Support Files */,
+			);
+			name = DLRadioButton;
+			path = DLRadioButton;
+			sourceTree = "<group>";
+		};
+		F66A636F91DEE92A25B410CB90873B88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58621754F17B8A753409481A614300FD /* DLRadioButton.framework */,
+				73F693E1B6EB8E2EA8A928CF5369F966 /* Pods_PrnkTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		58527FE8EDBD5C4667180E3916CE715E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A0DADCED6F3EA2F6D6410B9831BC96 /* Pods-PrnkTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B07AA8E9B17041274718AE94C34D83D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B2CCDC53F0969011D2BA234E56B7E9 /* DLRadioButton-umbrella.h in Headers */,
+				0DDDE4B88D870D6225BAB7EECD72B490 /* DLRadioButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46BD0675E3AE6FB8C284CB79F1013052 /* DLRadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ECCCD994A7BA390D8D0E83D7A01751D /* Build configuration list for PBXNativeTarget "DLRadioButton" */;
+			buildPhases = (
+				8B07AA8E9B17041274718AE94C34D83D /* Headers */,
+				91AFD37EEF3A1EE2D30A7AF1ACE017ED /* Sources */,
+				ABD2F34A0FDDA1819A4F4245A462D4E6 /* Frameworks */,
+				21DB0C0CA3815E9F41D21BAA21744854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLRadioButton;
+			productName = DLRadioButton;
+			productReference = 58621754F17B8A753409481A614300FD /* DLRadioButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		861E58C79FA9923327283E496546A102 /* Pods-PrnkTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104D7E1621B1DE01C87C0D9BD65E6DFC /* Build configuration list for PBXNativeTarget "Pods-PrnkTest" */;
+			buildPhases = (
+				58527FE8EDBD5C4667180E3916CE715E /* Headers */,
+				60D61422002270CE66B83F9C7574ADA9 /* Sources */,
+				C74910045780A8DB2042506C69D284B8 /* Frameworks */,
+				F658B0DC00EBFFA21AB5B8D3A5FEC4A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A70E0029E9575F12E0A4002DB4C73438 /* PBXTargetDependency */,
+			);
+			name = "Pods-PrnkTest";
+			productName = "Pods-PrnkTest";
+			productReference = 73F693E1B6EB8E2EA8A928CF5369F966 /* Pods_PrnkTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F66A636F91DEE92A25B410CB90873B88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46BD0675E3AE6FB8C284CB79F1013052 /* DLRadioButton */,
+				861E58C79FA9923327283E496546A102 /* Pods-PrnkTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21DB0C0CA3815E9F41D21BAA21744854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F658B0DC00EBFFA21AB5B8D3A5FEC4A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60D61422002270CE66B83F9C7574ADA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E5173DDF07BF9E360CFD4CC5E430F6 /* Pods-PrnkTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91AFD37EEF3A1EE2D30A7AF1ACE017ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED928FEC82C7BF9E9EFC1CECE84E897 /* DLRadioButton-dummy.m in Sources */,
+				BDBCFC743FB9943826F18A175C83DF08 /* DLRadioButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A70E0029E9575F12E0A4002DB4C73438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DLRadioButton;
+			target = 46BD0675E3AE6FB8C284CB79F1013052 /* DLRadioButton */;
+			targetProxy = B6B1C82C95D5C2E443081626156283CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04ABA1FAFC4C8C20F5854A98384496C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C30D06430F5A9295E64378EFF77C5B0D /* Pods-PrnkTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PrnkTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PrnkTest/Pods-PrnkTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		068A219F9C384FD572D523EEE317D0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4570DE6D4CFC145FFC6388D9549ECA2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D8B4F02AABC865AE77BDE1DB6DC991F /* Pods-PrnkTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PrnkTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PrnkTest/Pods-PrnkTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CBA3F2B5BD4302E717D0B4DFBAD7FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2171BAF8FD11A7E4189BD77EF3DB41BB /* DLRadioButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLRadioButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
+				PRODUCT_MODULE_NAME = DLRadioButton;
+				PRODUCT_NAME = DLRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6497D1036E744482DD6C57B7F9443F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2171BAF8FD11A7E4189BD77EF3DB41BB /* DLRadioButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLRadioButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
+				PRODUCT_MODULE_NAME = DLRadioButton;
+				PRODUCT_NAME = DLRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E29B0B57C53FF8C9953CE2983686A7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		104D7E1621B1DE01C87C0D9BD65E6DFC /* Build configuration list for PBXNativeTarget "Pods-PrnkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ABA1FAFC4C8C20F5854A98384496C2 /* Debug */,
+				4570DE6D4CFC145FFC6388D9549ECA2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ECCCD994A7BA390D8D0E83D7A01751D /* Build configuration list for PBXNativeTarget "DLRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6497D1036E744482DD6C57B7F9443F77 /* Debug */,
+				5CBA3F2B5BD4302E717D0B4DFBAD7FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29B0B57C53FF8C9953CE2983686A7F9 /* Debug */,
+				068A219F9C384FD572D523EEE317D0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
